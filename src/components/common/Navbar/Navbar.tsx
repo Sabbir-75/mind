@@ -22,6 +22,9 @@ export function Navbar() {
             <MenubarMenu>
                 <MenubarTrigger onClick={() => router.push("/Profile")} className="cursor-pointer">Profiles</MenubarTrigger>
             </MenubarMenu>
+            <MenubarMenu>
+                <MenubarTrigger onClick={() => router.push("/products")} className="cursor-pointer">Products</MenubarTrigger>
+            </MenubarMenu>
         </Menubar>
     )
 }

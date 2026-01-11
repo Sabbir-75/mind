@@ -7,7 +7,7 @@ const Navigate = ({ children }: Readonly<{
 }>) => {
     const router = useRouter()
     return (
-        <button className='cursor-pointer' onClick={() => router.push(`/products/${children}`)}>
+        <button className='cursor-pointer hover:border-2 border-2 border-transparent hover:border-pink-600 duration-200 rounded-md px-3 py-2' onClick={() => router.push(`/products/${children}`)}>
               Product No : {children}
         </button>
     );

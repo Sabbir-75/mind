@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const page = async ({ params }: {
@@ -6,8 +7,8 @@ const page = async ({ params }: {
 
     const id = (await params).productId
     return (
-        <div>
-            <h1 className='text-2xl text-center pt-10'>Product No : {id}</h1>
+        <div className='text-center'>
+            <a href={`/products/${id}/views/${id}`} className='cursor-pointer bg-teal-700 text-white inline-block hover:border-2 border-2 border-transparent hover:border-pink-600 duration-200 rounded-md px-3 py-2'>Product No : {id}</a>
         </div>
     );
 };
