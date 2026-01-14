@@ -2,7 +2,8 @@
 const NotFound = () => {
     {
         return (
-            <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-500 text-white p-6">
+            <div className="flex flex-col items-center justify-center min-h-screen bg-red-500
+             text-white p-6">
                 <h1 className="text-9xl font-extrabold animate-pulse">404</h1>
                 <p className="text-2xl md:text-3xl mt-4 mb-8 text-center">
                     Oops! The page you are looking for does not exist.

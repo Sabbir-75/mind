@@ -4,6 +4,7 @@ const page = async ({ params, }: {
     params: Promise<{ slug: string[] }>
 }) => {
     const { slug } = await params;
+    // console.log(slug)  // slug retun to Array[]
     if (slug?.length === 2) {
         return (
             <div className="text-center">
