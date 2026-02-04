@@ -1,9 +1,6 @@
 "use client"
-import {
-    Menubar,
-    MenubarMenu,
-    MenubarTrigger,
-} from "@/components/ui/menubar"
+
+import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar"
 import { useRouter } from "next/navigation"
 
 export function Navbar() {
@@ -31,3 +28,4 @@ export function Navbar() {
         </Menubar>
     )
 }
+

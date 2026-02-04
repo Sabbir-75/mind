@@ -5,13 +5,16 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   // domains: ["images.unsplash.com"],
   images: {
-    remotePatterns:[
+    remotePatterns: [
       {
         protocol: "https",
         hostname: "**"
       }
     ],
   },
+  // compiler: {
+  //   removeConsole: true
+  // }
 };
 
 export default nextConfig;

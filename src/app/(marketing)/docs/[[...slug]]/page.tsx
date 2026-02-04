@@ -1,6 +1,6 @@
 import React from 'react';
 
-const page = async ({ params, }: {
+const page = async ({ params }: {
     params: Promise<{ slug: string[] }>
 }) => {
     const { slug } = await params;
@@ -41,3 +41,13 @@ const page = async ({ params, }: {
 };
 
 export default page;
+
+// interface PageProps {
+//   params: { slug: string[] };
+// }
+
+// const page = async ({ params }: PageProps) => {
+//     return (
+//         <div></div>
+//     )
+// }
