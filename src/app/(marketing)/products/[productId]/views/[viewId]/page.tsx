@@ -1,12 +1,13 @@
 import React from 'react';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 
 const page = async ({ params }: {
     params: Promise<{ productId: string; viewId: string }>
 }) => {
     const { productId, viewId } = await params
     if (parseInt(viewId) > 100) {
-        return notFound()
+        // return notFound()
+        redirect("/")
     }
     return (
         <div className='text-center'>
