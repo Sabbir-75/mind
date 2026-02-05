@@ -17,8 +17,12 @@ const navlink = [
         path: "/File"
     },
     {
-        name: "Edit",
-        path: "/Edit"
+        name: "Edit-1",
+        path: "/Edit/breaking-news-1111?lan=En"
+    },
+    {
+        name: "Edit-2",
+        path: "/Edit/breaking-news-0000?lan=Fr"
     },
     {
         name: "View",
