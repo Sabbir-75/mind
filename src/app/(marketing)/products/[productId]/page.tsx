@@ -10,7 +10,7 @@ export const generateMetadata = async ({ params }: props): Promise<Metadata> => 
     const id = (await params).productId
 
     return {
-        title: `Mind || Product ${id}`
+        title: `Product ${id}`
     }
 }
 
