@@ -29,7 +29,7 @@ function MenubarMenu({
 }
 
 interface MenubarTriggerProps extends React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Trigger> {
-  isActive?: boolean; // isActive অপশনাল বুলিয়ান হিসেবে যোগ করা হলো
+  isActive?: boolean; 
 }
 
 function MenubarTrigger({

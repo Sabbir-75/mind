@@ -36,6 +36,10 @@ const navlink = [
         name: "Products",
         path: "/products"
     },
+    {
+        name: "Plate",
+        path: "/plate"
+    },
 ]
 
 export function Navbar() {
