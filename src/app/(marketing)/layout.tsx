@@ -31,7 +31,10 @@ export default function MarketingLayout({ children }: Readonly<{
       >
         <Container>
           <Navbar></Navbar>
-          {children}
+          
+              {children}
+          
+         
         </Container>
 
       </body>

@@ -5,7 +5,7 @@ const page = async () => {
     await new Promise((resolve) => {
         setTimeout(() => {
             resolve("Resolve is Running");
-        }, 3000)
+        }, 1000)
     })
     return (
         <div className='flex flex-col items-center gap-3'>
